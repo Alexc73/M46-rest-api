@@ -22,4 +22,5 @@ const User =  connection.define("User", {
 { indexes: [{ unique: true, fields: ["username", "email"] }]}
 );
 
+
 module.exports = User;
